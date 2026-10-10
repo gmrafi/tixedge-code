@@ -16,7 +16,7 @@
 
 - **Concept & Author (আইডিয়া ও উদ্ভাবন):** Md Golam Mubasshir Rafi (মোঃ গোলাম মুবাশশির রাফি)
 - **Institutional Research Initiative (প্রাতিষ্ঠানিক প্ল্যাটফর্ম):** Centre for Fintech & Strategic Business Research (CFSBR)
-- **Digital Engine & Platform (ওয়েব সিমুলেটর ইঞ্জিন):** TixEdge Code (tixedge.dev)
+- **Digital Engine & Platform (ওয়েব সিমুলেটর ইঞ্জিন):** TixEdge Code (https://tixedgecode.vercel.app)
 
 ---
 
