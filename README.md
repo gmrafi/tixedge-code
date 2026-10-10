@@ -117,6 +117,8 @@ npm run start
 This project is an initiative of the **Centre for Fintech & Strategic Business Research (CFSBR)** under its Junior Computational Architecture Lab.
 
 - **Conceptualization & Author:** Md Golam Mubasshir Rafi
-- **Platform:** TixEdge Code (tixedge.dev)
+- **Official Contact:** rafi@gmrafi.com.bd
+- **Platform:** TixEdge Code (https://tixedgecode.vercel.app)
+- **License:** Proprietary Source-Available (All Rights Reserved)
 
-Copyright (c) CFSBR. All rights reserved.
+Copyright (c) 2026 Md Golam Mubasshir Rafi. All rights reserved.

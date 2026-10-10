@@ -1,0 +1,141 @@
+PROPRIETARY SOURCE-AVAILABLE LICENSE AND STATUTORY COPYRIGHT NOTICE
+Pursuant to The Copyright Act, 2023 (Act No. 34 of 2023, Bangladesh)
+and The Digital Millennium Copyright Act of 1998 (17 U.S.C. § 512, USA)
+
+Copyright (c) 2026 Md Golam Mubasshir Rafi (মোঃ গোলাম মুবাশশির রাফি).
+All Rights Reserved.
+
+Author and Creator:
+Md Golam Mubasshir Rafi (মোঃ গোলাম মুবাশশির রাফি)
+Contact: rafi@gmrafi.com.bd
+
+Institutional Platform:
+Centre for Fintech & Strategic Business Research (CFSBR)
+Junior Computational Architecture Lab
+
+Official Platform: TixEdge Code (https://tixedgecode.vercel.app / https://tixedge.dev)
+Official Repository: https://github.com/gmrafi/tixedge-code
+
+================================================================================
+SECTION 1: STATUTORY CLASSIFICATION OF THE WORK
+================================================================================
+This repository, its underlying architecture, documentation, and digital assets
+constitute a composite intellectual creation legally classified under The Copyright
+Act, 2023 (২০২৩ সনের ৩৪ নং আইন) of the People's Republic of Bangladesh as:
+
+1.1 "তথ্য প্রযুক্তি-ভিত্তিক ডিজিটাল কর্ম" (Information Technology-Based Digital Work)
+    pursuant to Section 2(10) and Section 14(1)(b), comprising all source code,
+    TypeScript/JavaScript logic, Next.js architecture, component engines,
+    browser runtime sandboxes, procedural sound synthesis, and data schemas.
+
+1.2 "সাহিত্যকর্ম" (Literary Work) pursuant to Section 2(50) and Section 14(1)(a),
+    comprising the "Project: Website" field-manual series, curriculum design,
+    chapter narratives, pedagogical exercises, and instructional text.
+
+1.3 "শিল্পকর্ম" (Artistic Work) pursuant to Section 2(40) and Section 14(1)(c),
+    comprising the "Blocku" vector mascot, user interface design layouts,
+    custom typography configurations, print worksheet layouts, and SVG assets.
+
+================================================================================
+SECTION 2: FIRST OWNERSHIP AND MORAL RIGHTS
+================================================================================
+2.1 FIRST OWNER: Pursuant to Section 15(1) and Section 77(2) of The Copyright
+    Act, 2023, Md Golam Mubasshir Rafi is the Author and sole First Owner of the
+    copyright subsisting in the Work.
+
+2.2 MORAL RIGHTS: Pursuant to Section 78 of The Copyright Act, 2023, the Author
+    possesses perpetual, inalienable moral rights to claim authorship of the
+    Work and to restrain any distortion, mutilation, modification, or derogatory
+    action prejudicial to the Author's honor or institutional reputation.
+
+2.3 TERM OF COPYRIGHT: Pursuant to Section 26 of The Copyright Act, 2023, the
+    copyright in this Information Technology-Based Digital Work shall subsist
+    for a period of 60 (sixty) years from the year of first publication.
+
+================================================================================
+SECTION 3: PERMITTED USE
+================================================================================
+Subject to the absolute prohibitions in Section 4, any visitor accessing this
+public repository is granted only a limited, non-exclusive, revocable,
+non-transferable permission to:
+
+3.1 Inspect, review, and audit the source code solely on the official GitHub
+    repository for personal educational evaluation and peer review.
+
+3.2 Clone or run the repository locally for non-commercial, personal study,
+    provided that all copyright notices and attribution remain fully intact.
+
+================================================================================
+SECTION 4: PROHIBITED ACTS & INFRINGEMENT
+================================================================================
+Pursuant to Section 69(1) and Section 69(2) of The Copyright Act, 2023, any of
+the following acts conducted without prior written express authorization from
+the Author and CFSBR constitutes unlawful infringement:
+
+4.1 COMMERCIAL EXPLOITATION: Selling, leasing, renting, sub-licensing, or
+    commercializing the Work, or offering training, courses, bootcamps, or paid
+    services utilizing this code, book curriculum, or platform architecture.
+
+4.2 UNLICENSED DEPLOYMENT & MIRRORING: Deploying, hosting, serving, or mirroring
+    the Work or any substantial part thereof on any public URL, domain, cloud host
+    (including but not limited to Vercel, Netlify, AWS, Cloudflare, GitHub Pages),
+    other than the Author's authorized domains.
+
+4.3 ATTRIBUTION TAMPERING & DERIVATIVE WORK: Removing, altering, or obfuscating
+    the Author's name, CFSBR attribution, trademarks, or creating derivative
+    works based upon the "Project: Website" curriculum structure.
+
+4.4 DIGITAL DATA TAMPERING: In accordance with Section 69(2)(f) of the Act,
+    knowingly or intentionally altering, deleting, augmenting, or distorting
+    any digital program, source code, data, or system belonging to this Work.
+
+================================================================================
+SECTION 5: DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) ENFORCEMENT
+================================================================================
+Because the Work is hosted on infrastructure subject to United States jurisdiction
+(GitHub, Vercel, cloud service providers), any unauthorized copy, fork, or hosted
+clone will be subject to immediate legal takedown under the Digital Millennium
+Copyright Act of 1998 (17 U.S.C. § 512):
+
+5.1 EXPEDITED TAKEDOWN: Formal DMCA notifications under 17 U.S.C. § 512(c)(3)
+    will be filed against any infringing repository, host, or domain.
+
+5.2 SEARCH DE-INDEXING: Formal requests will be submitted to search engines
+    (Google, Bing) to permanently de-index infringing URLs.
+
+5.3 REPEAT INFRINGER ACTIONS: Account termination requests will be enforced
+    pursuant to hosting platforms' statutory Repeat Infringer policies.
+
+================================================================================
+SECTION 6: INTERNATIONAL RECIPROCITY
+================================================================================
+Pursuant to Section 62 of The Copyright Act, 2023 and the Berne Convention for
+the Protection of Literary and Artistic Works (of which Bangladesh is a contracting
+state), the copyright protection granted under Bangladesh law extends
+automatically to all 180+ member states without necessity of foreign registration.
+
+================================================================================
+SECTION 7: CIVIL AND CRIMINAL REMEDIES
+================================================================================
+Any infringement of this copyright shall entitle the Author and CFSBR to:
+
+7.1 CIVIL INJUNCTIONS & DAMAGES: Immediate interlocutory and permanent
+    injunctions, recovery of statutory damages, accounts of profits, and delivery
+    up of all infringing source code compilations and digital assets under
+    Sections 77 and 80 of The Copyright Act, 2023.
+
+7.2 CRIMINAL PROSECUTION: Lodging of criminal complaints under Chapter 17
+    of The Copyright Act, 2023 for willful infringement of computer software
+    and digital intellectual property.
+
+7.3 COSTS: Full recovery of all legal fees, advocate retainers, and court costs
+    incurred in enforcing these rights.
+
+================================================================================
+SECTION 8: DISCLAIMER OF WARRANTY
+================================================================================
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR CFSBR
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF
+THE WORK.

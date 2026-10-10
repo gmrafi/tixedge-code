@@ -19,6 +19,7 @@ import {
   Laptop,
   Check,
   Sliders,
+  Scale,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -804,15 +805,31 @@ export default function LandingPage() {
                       ভেরিফায়েড সার্টিফিকেট প্রিভিউ
                     </button>
                   </li>
+                  <li>
+                    <Link
+                      href="/license"
+                      className="hover:text-orange-600 transition-colors inline-flex items-center gap-1.5"
+                    >
+                      <Scale className="h-3.5 w-3.5 text-stone-500" />
+                      <span>কপিরাইট ও আইনি নোটিশ</span>
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
 
             {/* Bottom Credit Line */}
             <div className="border-t border-stone-300 dark:border-zinc-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700 dark:text-zinc-400">
-              <p className="font-medium">
-                © {new Date().getFullYear()} TixEdge Code. All rights reserved.
-              </p>
+              <div className="flex flex-wrap items-center gap-2 font-medium">
+                <span>© 2026 Md Golam Mubasshir Rafi. All rights reserved.</span>
+                <span className="text-stone-400">·</span>
+                <Link
+                  href="/license"
+                  className="font-bold text-orange-700 dark:text-orange-400 hover:underline"
+                >
+                  কপিরাইট ও আইনি ডিসক্লেইমার
+                </Link>
+              </div>
               <div className="flex flex-wrap items-center gap-2 font-semibold text-slate-800 dark:text-zinc-200">
                 <span>Concept &amp; Author: <strong className="text-slate-950 dark:text-white font-extrabold">Md Golam Mubasshir Rafi</strong></span>
                 <span className="text-stone-400">·</span>
