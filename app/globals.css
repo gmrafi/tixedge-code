@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SolaimanLipi';
+    src: url('/fonts/SolaimanLipi.woff2') format('woff2'),
+         url('/fonts/SolaimanLipi.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Kalpurush';
+    src: url('/fonts/Kalpurush.woff2') format('woff2'),
+         url('/fonts/Kalpurush.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * {
+    font-synthesis: weight style;
+  }
+
+  :root {
+    /* Warm Minimalism Palette (Editorial Toy / EdTech Craft) */
+    --background: 40 20% 98%; /* Warm Parchment / Stone Off-white #FCFAF6 */
+    --foreground: 220 15% 14%; /* Deep Slate / Charcoal #1E2229 */
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 14%;
+    --primary: 222 47% 11%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 40 10% 94%;
+    --secondary-foreground: 220 15% 14%;
+    --muted: 40 10% 95%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 40 10% 93%;
+    --accent-foreground: 220 15% 14%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 40 10% 88%; /* Gentle Warm Slate #E4E1DB */
+    --input: 40 10% 88%;
+    --ring: 24 95% 53%; /* Warm Terracotta Focus Ring */
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 96%;
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 96%;
+    --popover: 240 10% 6%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 5% 16%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5% 18%;
+    --input: 240 5% 18%;
+    --ring: 24 95% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-border rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground;
+}
+
+/* Authentic SolaimanLipi Bangladeshi Editorial Typography */
+body {
+  font-family: var(--font-solaimanlipi), "SolaimanLipi", "Kalpurush", "Anek Bangla", "Hind Siliguri", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #020617;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* True Solid Bold & Heading Presence (Bangladeshi Press Standard) */
+h1, h2, h3, h4, h5, h6, strong, b, .font-bold, .font-extrabold {
+  font-family: var(--font-solaimanlipi), "SolaimanLipi", "Kalpurush", "Anek Bangla", "Hind Siliguri", sans-serif;
+  font-weight: 700 !important;
+  -webkit-text-stroke: 0.35px currentColor;
+  color: #020617;
+  letter-spacing: -0.01em;
+}
+
+.font-semibold {
+  font-weight: 600 !important;
+  -webkit-text-stroke: 0.2px currentColor;
+  color: #090d16;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6,
+.dark strong, .dark b, .dark .font-bold, .dark .font-extrabold {
+  color: #f8fafc;
+  -webkit-text-stroke: 0.35px currentColor;
+}
+
+.dark .font-semibold {
+  color: #f1f5f9;
+  -webkit-text-stroke: 0.2px currentColor;
+}
+
+.bengali-text {
+  font-family: var(--font-solaimanlipi), "SolaimanLipi", "Kalpurush", "Anek Bangla", "Hind Siliguri", sans-serif;
+  letter-spacing: 0.005em;
+  line-height: 1.65;
+}
+
+/* Editor panel */
+.editor-panel {
+  @apply h-full flex flex-col overflow-hidden;
+}
+
+/* Preview iframe */
+.preview-iframe-container {
+  @apply flex items-center justify-center bg-muted/30 h-full;
+}
+
+/* Mission checklist animation */
+.mission-item-complete {
+  @apply line-through text-muted-foreground transition-all duration-300;
+}
+
+/* Confetti canvas override */
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* TixEdge gradient brand */
+.tix-gradient {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #f97316 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tix-gradient-bg {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #f97316 100%);
+}
+
+/* Print Stylesheet for Physical Worksheet */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-worksheet, #printable-worksheet * {
+    visibility: visible;
+  }
+  #printable-worksheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px;
+    border: none !important;
+    background: white !important;
+    color: black !important;
+  }
+}
